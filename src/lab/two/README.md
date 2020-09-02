@@ -1,8 +1,11 @@
-CA3511 - JAVA PROGRAMMING AND NETWORKS LABORATORY
+# Week 2 - Access Specifiers
 
-Week 2 - Access Specifiers
+---
 
-Lab.Ex.2 26.08.2020
+## Lab.Ex.2 
+## Date: 26.08.2020
+
+---
 
 <Create class and objects; Use objects to access your methods and variables; Make use of access modifiers (Private, Public and Protected) as and when needed by you>
 
@@ -34,6 +37,5 @@ Method Overloading: changing no. of arguments
 Method Overloading: data type of arguments
 
 8.) Create a Bank class and create subsequent sub-classes (minimum 3) to exhibit
- =
 
 Method Overriding
