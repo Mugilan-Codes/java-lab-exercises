@@ -1,6 +1,8 @@
 # Week 2 - Access Specifiers
 
-[back](../../../)
+<a name="#go-back" href="../../../"><Go Back/a>
+
+[back][#go-back]
 
 ---
 
