@@ -6,6 +6,6 @@
 |   2   | 26.08.2020 |    [Access Specifiers][2]    |
 |   3   | 02.09.2020 | [Programming with Arrays][3] |
 
-[1]: src/lab/one/README.md
-[2]: src/lab/two/README.md
+[1]: src/lab/one
+[2]: src/lab/two
 [3]: src/lab/three
