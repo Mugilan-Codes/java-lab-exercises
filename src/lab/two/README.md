@@ -1,9 +1,5 @@
 # Week 2 - Access Specifiers
 
-<a name="#go-back" href="../../../"><Go Back/a>
-
-[back][#go-back]
-
 ---
 
 ## Lab.Ex.2
