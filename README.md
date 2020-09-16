@@ -6,8 +6,10 @@
 |   2   | 26.08.2020 |    [Access Specifiers][2]    |  [link](Questions/lab_two.docx)  |
 |   3   | 02.09.2020 | [Programming with Arrays][3] | [link](Questions/lab_three.docx) |
 |   4   | 09.09.2020 | [Programming with Interface][4] | [link](Questions/lab_four.docx) |
+|   5   | 16.09.2020 | [Programming with Sockets][5] | [link](Questions/lab_five.docx) |
 
 [1]: src/lab/one
 [2]: src/lab/two
 [3]: src/lab/three
 [4]: src/lab/four
+[5]: src/lab/five
