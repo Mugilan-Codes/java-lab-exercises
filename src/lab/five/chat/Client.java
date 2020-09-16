@@ -2,6 +2,7 @@ package lab.five.chat;
 
 import java.io.*;
 import java.net.Socket;
+import java.util.Scanner;
 
 public class Client {
 
@@ -11,17 +12,16 @@ public class Client {
         Socket socket = new Socket("localhost", PORT);
         System.out.println("Connection Established");
         DataInputStream inputStream;
-        BufferedReader reader;
+        Scanner in = new Scanner(System.in);
         DataOutputStream outputStream;
 
         while (true) {
             inputStream = new DataInputStream(socket.getInputStream());
-            reader = new BufferedReader(new InputStreamReader(inputStream));
-
-            System.out.print("You: ");
-            String message = reader.readLine();
-
             outputStream = new DataOutputStream(socket.getOutputStream());
+
+            System.out.println();
+            System.out.print("You: ");
+            String message = in.nextLine();
             outputStream.writeUTF(message);
 
             if(message.equalsIgnoreCase("exit")) {
@@ -31,6 +31,8 @@ public class Client {
                 socket.close();
                 break;
             }
+
+            System.out.println("Server: " + inputStream.readUTF());
         }
 
         System.out.println("Exited.");
