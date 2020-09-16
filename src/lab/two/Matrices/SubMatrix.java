@@ -46,7 +46,7 @@ public class SubMatrix {
     private void subMatrices() {
         for(int i=0; i<rows; i++) {
             for(int j=0; j<columns; j++) {
-                diff[i][j] = a[i][j] + b[i][j];
+                diff[i][j] = a[i][j] - b[i][j];
             }
         }
     }

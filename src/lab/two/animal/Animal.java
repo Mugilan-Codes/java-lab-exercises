@@ -28,7 +28,7 @@ class Cat extends Animal {
 
         cat.jump();
         cat.display();
-//        cat.run();
+        // cat.run(); // 'run()' has private access in 'lab.two.animal.Animal'
         cat.eat();
 
     }

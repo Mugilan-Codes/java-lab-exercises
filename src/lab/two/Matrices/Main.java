@@ -15,7 +15,7 @@ public class Main {
         switch (choice) {
             case 1:
                 System.out.println("Matrix Addition");
-                AddMatrix addMatrix = new AddMatrix(1, 2);
+                AddMatrix addMatrix = new AddMatrix();
                 addMatrix.displayMatrices();
                 break;
             case 2:
