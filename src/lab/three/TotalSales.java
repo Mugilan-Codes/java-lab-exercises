@@ -11,16 +11,16 @@ class SalesPerson {
         for (int x = 0; x < 4; x++) {
             System.out.printf("sales person %d :\n", x + 1);
             int salesPerson = x + 1;
-            System.out.print("Enter product number [1-5]: ");
+            System.out.print("Enter product number [1-4]: ");
             int p = input.nextInt();
             System.out.print("Enter sales amount: ");
             double amt = input.nextDouble();
 
-            if (salesPerson >= 1 && salesPerson < 5 && p >= 1 && p < 6 && amt >= 0) {
+            if (salesPerson >= 1 && salesPerson < 5 && p >= 1 && p < 5 && amt >= 0) {
                 sales[salesPerson - 1][p - 1] += amt;
             }
 
-            if (p > 5)
+            if (p > 4)
                 System.out.print("Invalid input!\n");
 
         }
@@ -31,14 +31,14 @@ class SalesPerson {
         for (col1 = 0; col1 < 4; col1++)
             personTotal[col1] = 0;
 
-        System.out.printf("%7s%14s%14s%14s%14s%14s\n", "Product",
-                "Salesperson 1",
-                "Salesperson 2", "Salesperson 3", "Salesperson 4", "Total");
+        System.out.printf("%14s%14s%14s%14s%14s%14s\n", "Sales Person",
+                "Product 1",
+                "Product 2", "Product 3", "Product 4", "Total");
 
         int row;
-        for (row = 0; row < 5; row++) {
+        for (row = 0; row < 4; row++) {
             double productTotal = 0.0;
-            System.out.printf("%7d", (row + 1));
+            System.out.printf("%14d", (row + 1));
             for (int col = 0; col < 4; col++) {
                 System.out.printf("%14.2f", sales[row][col]);
                 productTotal += sales[row][col];
@@ -49,7 +49,7 @@ class SalesPerson {
 
         }
 
-        System.out.printf("%7s", "Total");
+        System.out.printf("%14s", "Total");
 
         for (int col = 0; col < 4; col++)
             System.out.printf("%14.2f", personTotal[col]);
