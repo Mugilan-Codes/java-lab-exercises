@@ -22,7 +22,7 @@ public class LCM {
         System.out.print("Enter second number: ");
         int num2 = input.nextInt();
 
-        System.out.println("GCD of " + num1 + " and " + num2 + " is " + findLCM(num1, num2));
+        System.out.println("LCM of " + num1 + " and " + num2 + " is " + findLCM(num1, num2));
     }
 }
 
@@ -30,4 +30,4 @@ public class LCM {
 // 
 // Enter first number: 96
 // Enter second number: 54
-// GCD of 96 and 54 is 864
+// LCM of 96 and 54 is 864
