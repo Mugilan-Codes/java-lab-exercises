@@ -33,7 +33,6 @@ public class Server {
 
             if (message.equalsIgnoreCase("exit")) {
                 System.out.println();
-//                outputStream.writeUTF("Exiting Server...");
                 System.out.println("Exiting Server...");
                 inputStream.close();
                 outputStream.close();
