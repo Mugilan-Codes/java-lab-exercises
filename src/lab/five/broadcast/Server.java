@@ -8,7 +8,7 @@ public class Server {
 
     public static void main(String[] args) throws IOException {
 
-        InetAddress IP = InetAddress.getLocalHost();
+        InetAddress IP = InetAddress.getByName("localhost");
         DatagramSocket socket = new DatagramSocket();
         System.out.println("Socket Created.");
         Scanner in = new Scanner(System.in);
