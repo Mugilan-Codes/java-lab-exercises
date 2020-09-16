@@ -1,6 +1,5 @@
 package lab.three;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Sales {

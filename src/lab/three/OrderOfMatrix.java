@@ -15,9 +15,9 @@ public class OrderOfMatrix {
     public static void main(String[] args) {
 
         int[][] sales = {
-                {11, 12, 13, 14, 15},
-                {21, 22, 23, 24, 25},
-                {31, 32, 33, 34, 35}
+                {11, 0, 0, 14, 15},
+                {21, 0, 23, 0, 25},
+                {31, 32, 0, 34, 0}
         };
 
         System.out.println("Order of the Sales Matrix:");
@@ -25,8 +25,12 @@ public class OrderOfMatrix {
 
         for (int row = 0; row < sales.length; row++) {
             for (int col = 0; col < sales[row].length; col++) {
-                System.out.println("sales[" + row + "][" + col + "] = 0");
+                if (sales[row][col] == 0) {
+                    System.out.println("sales[" + row + "][" + col + "] is already Zero");
+                    continue;
+                }
                 sales[row][col] = 0;
+                System.out.println("sales[" + row + "][" + col + "] = 0");
                 displayArray(sales);
             }
         }
