@@ -13,19 +13,20 @@ public class Server {
 
     public static void main(String[] args) throws IOException {
         serverSocket = new ServerSocket(PORT);
+        System.out.println("Waiting for the Client...");
+        Socket socket = serverSocket.accept();
+        System.out.println("Connection Established.");
 
         while (true) {
-            System.out.println("Waiting for the Client...");
-            Socket socket = serverSocket.accept();
-            System.out.println("Connection Established.");
-
-            DataInputStream inputStream = new DataInputStream(socket.getInputStream());
+            DataInputStream inputStream =
+                    new DataInputStream(socket.getInputStream());
             String message = inputStream.readUTF();
             System.out.println("Client: " + message);
 
-            DataOutputStream outputStream = new DataOutputStream(socket.getOutputStream());
+            DataOutputStream outputStream =
+                    new DataOutputStream(socket.getOutputStream());
 
-            if(message.equalsIgnoreCase("exit")) {
+            if (message.equalsIgnoreCase("exit")) {
                 outputStream.writeUTF("Exiting Server...");
                 inputStream.close();
                 outputStream.close();
