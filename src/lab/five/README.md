@@ -8,6 +8,12 @@
 
 ---
 
+### TODO:
+
+- Complete 3 & 4 Properly
+
+---
+
 1. Implement a socket program for exchanging message between a client and server.
 
 1. Use socket program to get system’s
