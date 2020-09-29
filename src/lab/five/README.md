@@ -1,4 +1,4 @@
-# Week 5 - String Handling and Socket Programming
+# Week 5 - Socket Programming
 
 ---
 
