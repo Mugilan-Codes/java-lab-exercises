@@ -1,17 +1,25 @@
 package lab.six;
 
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class ReverseString {
 
     public static void reversePrintString(String str) {
-        System.out.println("Original String: " + str);
+        System.out.println("\nOriginal String: " + str);
 
         String[] tokens = str.split(" ");
 
-        for (int i = tokens.length - 1; i > -1 ; i--) {
-            System.out.println(tokens[i]);
+        Collections.reverse(Arrays.asList(tokens));
+
+        StringBuilder reversed = new StringBuilder();
+
+        for (String string : tokens) {
+            reversed.append(string).append(" ");
         }
+
+        System.out.println("\nReversed String: " + reversed);
     }
 
     public static void main(String[] args) {
@@ -21,7 +29,6 @@ public class ReverseString {
         System.out.println("Print String in Reverse Order");
         System.out.print("Enter the String: ");
         String str = in.nextLine();
-
         reversePrintString(str);
 
     }
