@@ -9,6 +9,7 @@
 |   5   | 16.09.2020 | [Socket Programming][5] | [link](Questions/lab_five.docx) |
 |   6   | 23.09.2020 | [String Handling][6] | [link](Questions/lab_six.docx) |
 |   7   | 30.09.2020 | [Applet and Swing Components Design][7] | [link](Questions/lab_seven.pdf) |
+|   8   | 07.10.2020 | [][8] | [link](Questions) |
 
 [1]: src/lab/one
 [2]: src/lab/two
@@ -17,3 +18,4 @@
 [5]: src/lab/five
 [6]: src/lab/six
 [7]: src/lab/seven
+[8]: src/lab/eight

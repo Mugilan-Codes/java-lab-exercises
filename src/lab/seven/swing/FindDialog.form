@@ -7,49 +7,6 @@
     </constraints>
     <properties/>
     <border type="none"/>
-    <children>
-      <splitpane id="39e6e">
-        <constraints>
-          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
-            <preferred-size width="200" height="200"/>
-          </grid>
-        </constraints>
-        <properties>
-          <orientation value="1"/>
-        </properties>
-        <border type="none"/>
-        <children>
-          <splitpane id="f7bfa">
-            <constraints>
-              <splitpane position="left"/>
-            </constraints>
-            <properties>
-              <orientation value="0"/>
-            </properties>
-            <border type="none"/>
-            <children>
-              <splitpane id="908a">
-                <constraints>
-                  <splitpane position="right"/>
-                </constraints>
-                <properties>
-                  <orientation value="0"/>
-                </properties>
-                <border type="none"/>
-                <children/>
-              </splitpane>
-            </children>
-          </splitpane>
-          <component id="17210" class="javax.swing.JButton" binding="button1" default-binding="true">
-            <constraints>
-              <splitpane position="right"/>
-            </constraints>
-            <properties>
-              <text value="Button"/>
-            </properties>
-          </component>
-        </children>
-      </splitpane>
-    </children>
+    <children/>
   </grid>
 </form>
