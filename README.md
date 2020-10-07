@@ -1,5 +1,11 @@
 # CA3511 - JAVA PROGRAMMING AND NETWORKS LABORATORY
 
+## Java Version
+
+> Changed from Java 14 to Java Amazon Corretto 8 midway
+
+## LAB EXERCISES
+
 | WEEK  |    DATE    |            TOPIC             |             QUESTION             |
 | :---: | :--------: | :--------------------------: | :------------------------------: |
 |   1   | 19.08.2020 | [Basic Java Programming][1]  |  [link](Questions/lab_one.docx)  |
@@ -9,7 +15,7 @@
 |   5   | 16.09.2020 | [Socket Programming][5] | [link](Questions/lab_five.docx) |
 |   6   | 23.09.2020 | [String Handling][6] | [link](Questions/lab_six.docx) |
 |   7   | 30.09.2020 | [Applet and Swing Components Design][7] | [link](Questions/lab_seven.pdf) |
-|   8   | 07.10.2020 | [][8] | [link](Questions) |
+|   8   | 07.10.2020 | [Database Connection][8] | [link](Questions/lab_eight.pdf) |
 
 [1]: src/lab/one
 [2]: src/lab/two
