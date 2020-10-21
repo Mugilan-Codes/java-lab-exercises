@@ -16,6 +16,8 @@
 |   6   | 23.09.2020 | [String Handling][6] | [link](Questions/lab_six.docx) |
 |   7   | 30.09.2020 | [Applet and Swing Components Design][7] | [link](Questions/lab_seven.pdf) |
 |   8   | 07.10.2020 | [Database Connection][8] | [link](Questions/lab_eight.pdf) |
+|   9   | 14.10.2020 | [File Handling][9] | [link](Questions/lab_nine.docx) |
+|   10   | 21.10.2020 | [Java Servlets][10] | [link](Questions/lab_ten.pdf) |
 
 [1]: src/lab/one
 [2]: src/lab/two
@@ -25,3 +27,5 @@
 [6]: src/lab/six
 [7]: src/lab/seven
 [8]: src/lab/eight
+[9]: src/lab/nine
+[10]: src/lab/ten
