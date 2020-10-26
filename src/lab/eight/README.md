@@ -1,4 +1,4 @@
-# Week 9 - Database Connection
+# Week 8 - Database Connection
 
 ---
 
