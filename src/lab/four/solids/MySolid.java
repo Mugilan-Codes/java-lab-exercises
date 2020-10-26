@@ -13,7 +13,7 @@ public class MySolid {
         int choice = input.nextInt();
 
         switch (choice) {
-            case 1 -> {
+            case 1:
                 System.out.println("Cylinder");
                 Cylinder cylinder = new Cylinder();
                 System.out.print("Set the Height of the Cylinder: ");
@@ -21,15 +21,15 @@ public class MySolid {
                 cylinder.readRadius();
                 System.out.println("Surface Area = " + cylinder.surfaceArea());
                 System.out.println("Volume = " + cylinder.volume());
-            }
-            case 2 -> {
+            break;
+            case 2:
                 System.out.println("Sphere");
                 Sphere sphere = new Sphere();
                 sphere.readRadius();
                 System.out.println("Surface Area = " + sphere.surfaceArea());
                 System.out.println("Volume = " + sphere.volume());
-            }
-            default -> System.out.println("Invalid Choice");
+            break;
+            default: System.out.println("Invalid Choice");
         }
 
     }

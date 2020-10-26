@@ -14,8 +14,8 @@
 
 1. Write a java program to print the no. of words in the file.
 
-1. RMI concept in Java.
+1. RMI concept in Java. (Remaining)
 
 1. Using UDP protocol do a data frames from client to server (DNS).
 
-1. Implement a simple Java program to create a servlet and display it.
+1. Implement a simple Java program to create a servlet and display it. (Remaining)

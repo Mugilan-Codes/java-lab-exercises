@@ -1,0 +1,2 @@
+This is a sentence that is entered using instream. 
+ by giving appropriate write permissions for the user to insert and output the data
